@@ -14,14 +14,14 @@
  * limitations under the License.
  */
 
-package com.ghory.apps.accountsmanager.jetty.web;
+package com.ghory.apps.accountsmanager.api.rest;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 
-import com.ghory.apps.accountsmanager.jetty.service.HelloWorldService;
+import com.ghory.apps.accountsmanager.service.HelloWorldService;
 
 @Controller
 public class SampleController {
